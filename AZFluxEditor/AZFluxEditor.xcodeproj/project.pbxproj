@@ -7,77 +7,76 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E9EEBF43302A6E1C00F662D7 /* MLX in Frameworks */ = {isa = PBXBuildFile; productRef = A11A11A11A11A11A11A11A05 /* MLX */; };
-		E9EEBF44302A6E1C00F662D7 /* MLXNN in Frameworks */ = {isa = PBXBuildFile; productRef = A11A11A11A11A11A11A11A06 /* MLXNN */; };
-		E9EEBF45302A6E1C00F662D7 /* MLXRandom in Frameworks */ = {isa = PBXBuildFile; productRef = A11A11A11A11A11A11A11A07 /* MLXRandom */; };
-		E9EEBF46302A6E1C00F662D7 /* MLXOptimizers in Frameworks */ = {isa = PBXBuildFile; productRef = A11A11A11A11A11A11A11A08 /* MLXOptimizers */; };
-		E9EEBF47302A6E1C00F662D7 /* Flux2Core in Frameworks */ = {isa = PBXBuildFile; productRef = A11A11A11A11A11A11A11A09 /* Flux2Core */; };
+		E99AF620302E256B008423D4 /* EditorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99AF61F302E2550008423D4 /* EditorViewModel.swift */; };
+		E99AF624302E48B6008423D4 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99AF623302E48A5008423D4 /* MainView.swift */; };
+		E99AF626302E5363008423D4 /* ImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99AF625302E5358008423D4 /* ImageService.swift */; };
+		E99AF628302ECFAA008423D4 /* CustomSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99AF627302ECFA5008423D4 /* CustomSlider.swift */; };
+		E99AF62A302ED7C6008423D4 /* BasicEditingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99AF629302ED7AB008423D4 /* BasicEditingView.swift */; };
+		E9F22D6E302D819300A0756C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9F22D6A302D819300A0756C /* Assets.xcassets */; };
+		E9F22D6F302D819300A0756C /* AZFluxEditorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F22D6B302D819300A0756C /* AZFluxEditorApp.swift */; };
+		E9F22D78302D84E200A0756C /* EditorSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F22D77302D84C900A0756C /* EditorSettings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		E9EEBDFF302A5ED400F662D7 /* PBXContainerItemProxy */ = {
+		E9F22D4C302D285E00A0756C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = E9EEBDE7302A5ED300F662D7 /* Project object */;
+			containerPortal = E9F22D34302D285D00A0756C /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = E9EEBDEE302A5ED300F662D7;
-			remoteInfo = AzFluxEditor;
+			remoteGlobalIDString = E9F22D3B302D285D00A0756C;
+			remoteInfo = AZFluxEditor;
 		};
-		E9EEBE09302A5ED400F662D7 /* PBXContainerItemProxy */ = {
+		E9F22D56302D285E00A0756C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = E9EEBDE7302A5ED300F662D7 /* Project object */;
+			containerPortal = E9F22D34302D285D00A0756C /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = E9EEBDEE302A5ED300F662D7;
-			remoteInfo = AzFluxEditor;
+			remoteGlobalIDString = E9F22D3B302D285D00A0756C;
+			remoteInfo = AZFluxEditor;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A11A11A11A11A11A11A11A03 /* mlx-swift */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = "mlx-swift"; sourceTree = "<group>"; };
-		A11A11A11A11A11A11A11A04 /* flux-2-swift-mlx */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = "flux-2-swift-mlx"; sourceTree = "<group>"; };
-		E9EEBDEF302A5ED300F662D7 /* AzFluxEditor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AzFluxEditor.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E9EEBDFE302A5ED400F662D7 /* AzFluxEditorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AzFluxEditorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E9EEBE08302A5ED400F662D7 /* AzFluxEditorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AzFluxEditorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E99AF61F302E2550008423D4 /* EditorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditorViewModel.swift; sourceTree = "<group>"; };
+		E99AF623302E48A5008423D4 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		E99AF625302E5358008423D4 /* ImageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageService.swift; sourceTree = "<group>"; };
+		E99AF627302ECFA5008423D4 /* CustomSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSlider.swift; sourceTree = "<group>"; };
+		E99AF629302ED7AB008423D4 /* BasicEditingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicEditingView.swift; sourceTree = "<group>"; };
+		E9F22D3C302D285D00A0756C /* AZFluxEditor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AZFluxEditor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9F22D4B302D285E00A0756C /* AZFluxEditorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AZFluxEditorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9F22D55302D285E00A0756C /* AZFluxEditorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AZFluxEditorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9F22D6A302D819300A0756C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E9F22D6B302D819300A0756C /* AZFluxEditorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AZFluxEditorApp.swift; sourceTree = "<group>"; };
+		E9F22D77302D84C900A0756C /* EditorSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditorSettings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		E9EEBDF1302A5ED300F662D7 /* AzFluxEditor */ = {
+		E9F22D4E302D285E00A0756C /* AZFluxEditorTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = AzFluxEditor;
+			path = AZFluxEditorTests;
 			sourceTree = "<group>";
 		};
-		E9EEBE01302A5ED400F662D7 /* AzFluxEditorTests */ = {
+		E9F22D58302D285E00A0756C /* AZFluxEditorUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = AzFluxEditorTests;
-			sourceTree = "<group>";
-		};
-		E9EEBE0B302A5ED400F662D7 /* AzFluxEditorUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = AzFluxEditorUITests;
+			path = AZFluxEditorUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		E9EEBDEC302A5ED300F662D7 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E9EEBF47302A6E1C00F662D7 /* Flux2Core in Frameworks */,
-				E9EEBF46302A6E1C00F662D7 /* MLXOptimizers in Frameworks */,
-				E9EEBF45302A6E1C00F662D7 /* MLXRandom in Frameworks */,
-				E9EEBF44302A6E1C00F662D7 /* MLXNN in Frameworks */,
-				E9EEBF43302A6E1C00F662D7 /* MLX in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E9EEBDFB302A5ED400F662D7 /* Frameworks */ = {
+		E9F22D39302D285D00A0756C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E9EEBE05302A5ED400F662D7 /* Frameworks */ = {
+		E9F22D48302D285E00A0756C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9F22D52302D285E00A0756C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -87,168 +86,234 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		E9EEBDE6302A5ED300F662D7 = {
+		E9F22D33302D285D00A0756C = {
 			isa = PBXGroup;
 			children = (
-				E9EEBDF1302A5ED300F662D7 /* AzFluxEditor */,
-				E9EEBE01302A5ED400F662D7 /* AzFluxEditorTests */,
-				E9EEBE0B302A5ED400F662D7 /* AzFluxEditorUITests */,
-				E9EEBDF0302A5ED300F662D7 /* Products */,
-				A11A11A11A11A11A11A11A03 /* mlx-swift */,
-				A11A11A11A11A11A11A11A04 /* flux-2-swift-mlx */,
+				E9F22D6D302D819300A0756C /* AZFluxEditor */,
+				E9F22D4E302D285E00A0756C /* AZFluxEditorTests */,
+				E9F22D58302D285E00A0756C /* AZFluxEditorUITests */,
+				E9F22D3D302D285D00A0756C /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		E9EEBDF0302A5ED300F662D7 /* Products */ = {
+		E9F22D3D302D285D00A0756C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E9EEBDEF302A5ED300F662D7 /* AzFluxEditor.app */,
-				E9EEBDFE302A5ED400F662D7 /* AzFluxEditorTests.xctest */,
-				E9EEBE08302A5ED400F662D7 /* AzFluxEditorUITests.xctest */,
+				E9F22D3C302D285D00A0756C /* AZFluxEditor.app */,
+				E9F22D4B302D285E00A0756C /* AZFluxEditorTests.xctest */,
+				E9F22D55302D285E00A0756C /* AZFluxEditorUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		E9F22D6D302D819300A0756C /* AZFluxEditor */ = {
+			isa = PBXGroup;
+			children = (
+				E9F22D74302D81E400A0756C /* App */,
+				E9F22D79302D81F300A0756C /* Shared */,
+				E9F22D7A302D81F300A0756C /* Features */,
+				E9F22D76302D820600A0756C /* Services */,
+				E9F22D6A302D819300A0756C /* Assets.xcassets */,
+			);
+			path = AZFluxEditor;
+			sourceTree = "<group>";
+		};
+		E9F22D73302D81D900A0756C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E9F22D77302D84C900A0756C /* EditorSettings.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E9F22D74302D81E400A0756C /* App */ = {
+			isa = PBXGroup;
+			children = (
+				E9F22D6B302D819300A0756C /* AZFluxEditorApp.swift */,
+				E99AF623302E48A5008423D4 /* MainView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		E9F22D75302D81F300A0756C /* BasicEditing */ = {
+			isa = PBXGroup;
+			children = (
+				E99AF629302ED7AB008423D4 /* BasicEditingView.swift */,
+				E99AF61F302E2550008423D4 /* EditorViewModel.swift */,
+			);
+			path = BasicEditing;
+			sourceTree = "<group>";
+		};
+		E9F22D76302D820600A0756C /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				E99AF625302E5358008423D4 /* ImageService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		E9F22D79302D81F300A0756C /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				E9F22D7B302D81F300A0756C /* UIComponents */,
+				E9F22D73302D81D900A0756C /* Models */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		E9F22D7A302D81F300A0756C /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				E9F22D75302D81F300A0756C /* BasicEditing */,
+				E9F22D7C302D81F300A0756C /* AIProcessing */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		E9F22D7B302D81F300A0756C /* UIComponents */ = {
+			isa = PBXGroup;
+			children = (
+				E99AF627302ECFA5008423D4 /* CustomSlider.swift */,
+			);
+			path = UIComponents;
+			sourceTree = "<group>";
+		};
+		E9F22D7C302D81F300A0756C /* AIProcessing */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AIProcessing;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E9EEBDEE302A5ED300F662D7 /* AzFluxEditor */ = {
+		E9F22D3B302D285D00A0756C /* AZFluxEditor */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E9EEBE12302A5ED400F662D7 /* Build configuration list for PBXNativeTarget "AzFluxEditor" */;
+			buildConfigurationList = E9F22D5F302D285E00A0756C /* Build configuration list for PBXNativeTarget "AZFluxEditor" */;
 			buildPhases = (
-				E9EEBDEB302A5ED300F662D7 /* Sources */,
-				E9EEBDEC302A5ED300F662D7 /* Frameworks */,
-				E9EEBDED302A5ED300F662D7 /* Resources */,
+				E9F22D38302D285D00A0756C /* Sources */,
+				E9F22D39302D285D00A0756C /* Frameworks */,
+				E9F22D3A302D285D00A0756C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				E9EEBDF1302A5ED300F662D7 /* AzFluxEditor */,
-			);
-			name = AzFluxEditor;
+			name = AZFluxEditor;
 			packageProductDependencies = (
-				A11A11A11A11A11A11A11A05 /* MLX */,
-				A11A11A11A11A11A11A11A06 /* MLXNN */,
-				A11A11A11A11A11A11A11A07 /* MLXRandom */,
-				A11A11A11A11A11A11A11A08 /* MLXOptimizers */,
-				A11A11A11A11A11A11A11A09 /* Flux2Core */,
 			);
-			productName = AzFluxEditor;
-			productReference = E9EEBDEF302A5ED300F662D7 /* AzFluxEditor.app */;
+			productName = AZFluxEditor;
+			productReference = E9F22D3C302D285D00A0756C /* AZFluxEditor.app */;
 			productType = "com.apple.product-type.application";
 		};
-		E9EEBDFD302A5ED400F662D7 /* AzFluxEditorTests */ = {
+		E9F22D4A302D285E00A0756C /* AZFluxEditorTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E9EEBE15302A5ED400F662D7 /* Build configuration list for PBXNativeTarget "AzFluxEditorTests" */;
+			buildConfigurationList = E9F22D62302D285E00A0756C /* Build configuration list for PBXNativeTarget "AZFluxEditorTests" */;
 			buildPhases = (
-				E9EEBDFA302A5ED400F662D7 /* Sources */,
-				E9EEBDFB302A5ED400F662D7 /* Frameworks */,
-				E9EEBDFC302A5ED400F662D7 /* Resources */,
+				E9F22D47302D285E00A0756C /* Sources */,
+				E9F22D48302D285E00A0756C /* Frameworks */,
+				E9F22D49302D285E00A0756C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				E9EEBE00302A5ED400F662D7 /* PBXTargetDependency */,
+				E9F22D4D302D285E00A0756C /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				E9EEBE01302A5ED400F662D7 /* AzFluxEditorTests */,
+				E9F22D4E302D285E00A0756C /* AZFluxEditorTests */,
 			);
-			name = AzFluxEditorTests;
+			name = AZFluxEditorTests;
 			packageProductDependencies = (
 			);
-			productName = AzFluxEditorTests;
-			productReference = E9EEBDFE302A5ED400F662D7 /* AzFluxEditorTests.xctest */;
+			productName = AZFluxEditorTests;
+			productReference = E9F22D4B302D285E00A0756C /* AZFluxEditorTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		E9EEBE07302A5ED400F662D7 /* AzFluxEditorUITests */ = {
+		E9F22D54302D285E00A0756C /* AZFluxEditorUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E9EEBE18302A5ED400F662D7 /* Build configuration list for PBXNativeTarget "AzFluxEditorUITests" */;
+			buildConfigurationList = E9F22D65302D285E00A0756C /* Build configuration list for PBXNativeTarget "AZFluxEditorUITests" */;
 			buildPhases = (
-				E9EEBE04302A5ED400F662D7 /* Sources */,
-				E9EEBE05302A5ED400F662D7 /* Frameworks */,
-				E9EEBE06302A5ED400F662D7 /* Resources */,
+				E9F22D51302D285E00A0756C /* Sources */,
+				E9F22D52302D285E00A0756C /* Frameworks */,
+				E9F22D53302D285E00A0756C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				E9EEBE0A302A5ED400F662D7 /* PBXTargetDependency */,
+				E9F22D57302D285E00A0756C /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				E9EEBE0B302A5ED400F662D7 /* AzFluxEditorUITests */,
+				E9F22D58302D285E00A0756C /* AZFluxEditorUITests */,
 			);
-			name = AzFluxEditorUITests;
+			name = AZFluxEditorUITests;
 			packageProductDependencies = (
 			);
-			productName = AzFluxEditorUITests;
-			productReference = E9EEBE08302A5ED400F662D7 /* AzFluxEditorUITests.xctest */;
+			productName = AZFluxEditorUITests;
+			productReference = E9F22D55302D285E00A0756C /* AZFluxEditorUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		E9EEBDE7302A5ED300F662D7 /* Project object */ = {
+		E9F22D34302D285D00A0756C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 2650;
 				LastUpgradeCheck = 2650;
 				TargetAttributes = {
-					E9EEBDEE302A5ED300F662D7 = {
+					E9F22D3B302D285D00A0756C = {
 						CreatedOnToolsVersion = 26.5;
 					};
-					E9EEBDFD302A5ED400F662D7 = {
+					E9F22D4A302D285E00A0756C = {
 						CreatedOnToolsVersion = 26.5;
-						TestTargetID = E9EEBDEE302A5ED300F662D7;
+						TestTargetID = E9F22D3B302D285D00A0756C;
 					};
-					E9EEBE07302A5ED400F662D7 = {
+					E9F22D54302D285E00A0756C = {
 						CreatedOnToolsVersion = 26.5;
-						TestTargetID = E9EEBDEE302A5ED300F662D7;
+						TestTargetID = E9F22D3B302D285D00A0756C;
 					};
 				};
 			};
-			buildConfigurationList = E9EEBDEA302A5ED300F662D7 /* Build configuration list for PBXProject "AzFluxEditor" */;
+			buildConfigurationList = E9F22D37302D285D00A0756C /* Build configuration list for PBXProject "AZFluxEditor" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = E9EEBDE6302A5ED300F662D7;
+			mainGroup = E9F22D33302D285D00A0756C;
 			minimizedProjectReferenceProxies = 1;
-			packageReferences = (
-				A11A11A11A11A11A11A11A01 /* XCRemoteSwiftPackageReference "mlx-swift" */,
-				A11A11A11A11A11A11A11A02 /* XCRemoteSwiftPackageReference "flux-2-swift-mlx" */,
-			);
 			preferredProjectObjectVersion = 77;
-			productRefGroup = E9EEBDF0302A5ED300F662D7 /* Products */;
+			productRefGroup = E9F22D3D302D285D00A0756C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E9EEBDEE302A5ED300F662D7 /* AzFluxEditor */,
-				E9EEBDFD302A5ED400F662D7 /* AzFluxEditorTests */,
-				E9EEBE07302A5ED400F662D7 /* AzFluxEditorUITests */,
+				E9F22D3B302D285D00A0756C /* AZFluxEditor */,
+				E9F22D4A302D285E00A0756C /* AZFluxEditorTests */,
+				E9F22D54302D285E00A0756C /* AZFluxEditorUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		E9EEBDED302A5ED300F662D7 /* Resources */ = {
+		E9F22D3A302D285D00A0756C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9F22D6E302D819300A0756C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9F22D49302D285E00A0756C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E9EEBDFC302A5ED400F662D7 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E9EEBE06302A5ED400F662D7 /* Resources */ = {
+		E9F22D53302D285E00A0756C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -258,21 +323,28 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		E9EEBDEB302A5ED300F662D7 /* Sources */ = {
+		E9F22D38302D285D00A0756C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9F22D6F302D819300A0756C /* AZFluxEditorApp.swift in Sources */,
+				E99AF628302ECFAA008423D4 /* CustomSlider.swift in Sources */,
+				E9F22D78302D84E200A0756C /* EditorSettings.swift in Sources */,
+				E99AF624302E48B6008423D4 /* MainView.swift in Sources */,
+				E99AF626302E5363008423D4 /* ImageService.swift in Sources */,
+				E99AF620302E256B008423D4 /* EditorViewModel.swift in Sources */,
+				E99AF62A302ED7C6008423D4 /* BasicEditingView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9F22D47302D285E00A0756C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E9EEBDFA302A5ED400F662D7 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E9EEBE04302A5ED400F662D7 /* Sources */ = {
+		E9F22D51302D285E00A0756C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -282,20 +354,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		E9EEBE00302A5ED400F662D7 /* PBXTargetDependency */ = {
+		E9F22D4D302D285E00A0756C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E9EEBDEE302A5ED300F662D7 /* AzFluxEditor */;
-			targetProxy = E9EEBDFF302A5ED400F662D7 /* PBXContainerItemProxy */;
+			target = E9F22D3B302D285D00A0756C /* AZFluxEditor */;
+			targetProxy = E9F22D4C302D285E00A0756C /* PBXContainerItemProxy */;
 		};
-		E9EEBE0A302A5ED400F662D7 /* PBXTargetDependency */ = {
+		E9F22D57302D285E00A0756C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E9EEBDEE302A5ED300F662D7 /* AzFluxEditor */;
-			targetProxy = E9EEBE09302A5ED400F662D7 /* PBXContainerItemProxy */;
+			target = E9F22D3B302D285D00A0756C /* AZFluxEditor */;
+			targetProxy = E9F22D56302D285E00A0756C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		E9EEBE10302A5ED400F662D7 /* Debug */ = {
+		E9F22D5D302D285E00A0756C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -359,7 +431,7 @@
 			};
 			name = Debug;
 		};
-		E9EEBE11302A5ED400F662D7 /* Release */ = {
+		E9F22D5E302D285E00A0756C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -415,7 +487,7 @@
 			};
 			name = Release;
 		};
-		E9EEBE13302A5ED400F662D7 /* Debug */ = {
+		E9F22D60302D285E00A0756C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -435,7 +507,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "test-project.AzFluxEditor";
+				PRODUCT_BUNDLE_IDENTIFIER = "test-project.AZFluxEditor";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -447,7 +519,7 @@
 			};
 			name = Debug;
 		};
-		E9EEBE14302A5ED400F662D7 /* Release */ = {
+		E9F22D61302D285E00A0756C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -467,7 +539,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "test-project.AzFluxEditor";
+				PRODUCT_BUNDLE_IDENTIFIER = "test-project.AZFluxEditor";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -479,7 +551,7 @@
 			};
 			name = Release;
 		};
-		E9EEBE16302A5ED400F662D7 /* Debug */ = {
+		E9F22D63302D285E00A0756C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -489,18 +561,18 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 26.5;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "test-project.AzFluxEditorTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "test-project.AZFluxEditorTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AzFluxEditor.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AzFluxEditor";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AZFluxEditor.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AZFluxEditor";
 			};
 			name = Debug;
 		};
-		E9EEBE17302A5ED400F662D7 /* Release */ = {
+		E9F22D64302D285E00A0756C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -510,18 +582,18 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 26.5;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "test-project.AzFluxEditorTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "test-project.AZFluxEditorTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AzFluxEditor.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AzFluxEditor";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AZFluxEditor.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AZFluxEditor";
 			};
 			name = Release;
 		};
-		E9EEBE19302A5ED400F662D7 /* Debug */ = {
+		E9F22D66302D285E00A0756C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -529,18 +601,18 @@
 				DEVELOPMENT_TEAM = UL787MRMXU;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "test-project.AzFluxEditorUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "test-project.AZFluxEditorUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = AzFluxEditor;
+				TEST_TARGET_NAME = AZFluxEditor;
 			};
 			name = Debug;
 		};
-		E9EEBE1A302A5ED400F662D7 /* Release */ = {
+		E9F22D67302D285E00A0756C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -548,104 +620,57 @@
 				DEVELOPMENT_TEAM = UL787MRMXU;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "test-project.AzFluxEditorUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "test-project.AZFluxEditorUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = AzFluxEditor;
+				TEST_TARGET_NAME = AZFluxEditor;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E9EEBDEA302A5ED300F662D7 /* Build configuration list for PBXProject "AzFluxEditor" */ = {
+		E9F22D37302D285D00A0756C /* Build configuration list for PBXProject "AZFluxEditor" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E9EEBE10302A5ED400F662D7 /* Debug */,
-				E9EEBE11302A5ED400F662D7 /* Release */,
+				E9F22D5D302D285E00A0756C /* Debug */,
+				E9F22D5E302D285E00A0756C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E9EEBE12302A5ED400F662D7 /* Build configuration list for PBXNativeTarget "AzFluxEditor" */ = {
+		E9F22D5F302D285E00A0756C /* Build configuration list for PBXNativeTarget "AZFluxEditor" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E9EEBE13302A5ED400F662D7 /* Debug */,
-				E9EEBE14302A5ED400F662D7 /* Release */,
+				E9F22D60302D285E00A0756C /* Debug */,
+				E9F22D61302D285E00A0756C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E9EEBE15302A5ED400F662D7 /* Build configuration list for PBXNativeTarget "AzFluxEditorTests" */ = {
+		E9F22D62302D285E00A0756C /* Build configuration list for PBXNativeTarget "AZFluxEditorTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E9EEBE16302A5ED400F662D7 /* Debug */,
-				E9EEBE17302A5ED400F662D7 /* Release */,
+				E9F22D63302D285E00A0756C /* Debug */,
+				E9F22D64302D285E00A0756C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E9EEBE18302A5ED400F662D7 /* Build configuration list for PBXNativeTarget "AzFluxEditorUITests" */ = {
+		E9F22D65302D285E00A0756C /* Build configuration list for PBXNativeTarget "AZFluxEditorUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E9EEBE19302A5ED400F662D7 /* Debug */,
-				E9EEBE1A302A5ED400F662D7 /* Release */,
+				E9F22D66302D285E00A0756C /* Debug */,
+				E9F22D67302D285E00A0756C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		A11A11A11A11A11A11A11A01 /* XCRemoteSwiftPackageReference "mlx-swift" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/ml-explore/mlx-swift.git";
-			requirement = {
-				kind = exactVersion;
-				version = 0.31.3;
-			};
-		};
-		A11A11A11A11A11A11A11A02 /* XCRemoteSwiftPackageReference "flux-2-swift-mlx" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/VincentGourbin/flux-2-swift-mlx.git";
-			requirement = {
-				kind = exactVersion;
-				version = 2.4.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		A11A11A11A11A11A11A11A05 /* MLX */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = A11A11A11A11A11A11A11A01 /* XCRemoteSwiftPackageReference "mlx-swift" */;
-			productName = MLX;
-		};
-		A11A11A11A11A11A11A11A06 /* MLXNN */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = A11A11A11A11A11A11A11A01 /* XCRemoteSwiftPackageReference "mlx-swift" */;
-			productName = MLXNN;
-		};
-		A11A11A11A11A11A11A11A07 /* MLXRandom */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = A11A11A11A11A11A11A11A01 /* XCRemoteSwiftPackageReference "mlx-swift" */;
-			productName = MLXRandom;
-		};
-		A11A11A11A11A11A11A11A08 /* MLXOptimizers */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = A11A11A11A11A11A11A11A01 /* XCRemoteSwiftPackageReference "mlx-swift" */;
-			productName = MLXOptimizers;
-		};
-		A11A11A11A11A11A11A11A09 /* Flux2Core */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = A11A11A11A11A11A11A11A02 /* XCRemoteSwiftPackageReference "flux-2-swift-mlx" */;
-			productName = Flux2Core;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = E9EEBDE7302A5ED300F662D7 /* Project object */;
+	rootObject = E9F22D34302D285D00A0756C /* Project object */;
 }
